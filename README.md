@@ -28,6 +28,13 @@ A .NET 8.0 Web API for product management using Clean Architecture and CQRS.
 
 To build the project, open the `Products.sln` file in Visual Studio and build the solution.
 
+### Migrations
+
+To apply the migrations:
+- Open Package Manager Console.
+- Choose Infrastructure project.
+- Run Update-Database
+
 ### Running
 
 To run the project, set `API` as the startup project in Visual Studio and start the application.
